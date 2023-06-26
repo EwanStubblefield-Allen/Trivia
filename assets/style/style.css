@@ -1,0 +1,39 @@
+/* BASIC STYLES HERE */
+footer {
+  height: 2rem;
+}
+
+p {
+  margin: 0;
+  padding: 1rem;
+}
+
+p span {
+  color: yellow;
+}
+
+img {
+  height: 35dvh;
+}
+
+.correct {
+  border: 5px solid green !important;
+}
+
+.incorrect {
+  border: 5px solid red !important;
+}
+
+.trivia-text {
+  border-radius: 20px;
+  border: 5px solid #B9B9B9;
+}
+
+.trivia-answers:hover {
+  box-shadow: 0 4px 10px black;
+  cursor: pointer;
+}
+
+.trivia-answers:active {
+  box-shadow: none;
+}
